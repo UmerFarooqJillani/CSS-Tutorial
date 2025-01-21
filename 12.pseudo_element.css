@@ -1,0 +1,26 @@
+h1::first-letter {
+    font-size: 3em;
+}
+
+p::first-line {
+    background-color: blue;
+}
+
+p::selection {
+    color: rgb(246, 246, 250);
+}
+
+li::before {
+    content: "✔";
+    /*  press and hold the window button and press semicolon buttton*/
+}
+
+li::after {
+    content: "💖";
+    /*  press and hold the window button and press semicolon buttton*/
+}
+
+li::marker{
+    content: "✔";
+    color: rgb(247, 27, 2);
+ }

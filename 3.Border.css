@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 { 
+    text-align: center;
+
+    border-top-style: groove;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+    border-right-style: groove;
+    border-left-width: 3px;
+    border-left-color: brown;
+    border-radius: 5rem;   
+}
+
+p{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 3rem;
+    padding: 5rem;
+    border-color: gold;
+    /* border: 5px double black; */
+}

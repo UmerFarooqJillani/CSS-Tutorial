@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.148);
+}
+.container{
+    border: 2px solid black;
+    height: 70vw;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    /* A shorthand property for flex-direction and flex-wrap */
+    /* flex-flow: row wrap; */
+}
+.container > .box {
+/* .container > div { */
+    background-color: lightcoral;
+    margin: 8px;
+    width: 80px;
+    height: 80px;
+}
+
+/* child properties ///////////////////////////////////////////////////////////////////////////// */
+
+.iteam3{
+    /* jis ka order sab say baara ho ga woo last per aye ga */
+    order: 1; 
+}
+.iteam4{
+    order: 2; 
+}
+.iteam5{
+    /* page is grow than cell is gro */
+    flex-grow: 3; 
+    /* create a different itself properties is created */
+    align-self: start;
+}
+.iteam1,
+.iteam2,
+.iteam3,
+.iteam4 {
+     /* page is shrink than cells is shrink */
+    flex-shrink: 3;
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(3, 3, 68);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', 'Times New Roman', Times, serif;
+}
+p {
+    color: white;
+
+    font-family: 'Times New Roman', sans-serif, 'Press Start 2P';
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1rem;
+
+    text-align: justify;
+    text-decoration:underline;
+    text-decoration-color: white;
+    text-transform:unset;
+}

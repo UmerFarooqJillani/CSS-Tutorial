@@ -1,0 +1,15 @@
+/*
+px   = According to the screen pxial.
+%    = According to the parent or screen.
+vw   = stand for viewport width, According to the screen width.
+vh   = stand for viewport height, According to the screen height.
+vmin = stand for viewport minimum. If width is minimum so, use "vmin" 
+       e.g. mobile width is small but height is maximum or laptop width is maximum.
+vmax = stand for viewport maxmum. If width is maximum so, use "vmax" 
+       e.g. laptop width is large and height is minimum or mobile height is maximum and width small.
+em   = stand for equal measurement. According to parent size "font size: 10px;" - child size is "1em=10px, 2em=20px, 1.5em=15px".
+rem  = stand for root equal measurement. According to screen size or root size, 1rem = 16px, 2rem = 32px
+*/
+pre {
+    font-size: 1rem;
+} 

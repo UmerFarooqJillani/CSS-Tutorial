@@ -1,0 +1,23 @@
+/*
+    main axis  = x-axis
+    cross axis = y-axis
+*/
+body{
+    background-color: bisque;
+}
+
+body #parent{
+     display: flex;
+     align-items:center;            /*   use cross axis */
+     justify-content:center;           /*use main axis*/
+     justify-content:space-evenly;     /*use for space*/
+     flex-wrap:wrap;                   /*wrap the boxes*/
+     flex-direction: row ;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: lightsalmon;
+    border: 5px solid #000;
+}
